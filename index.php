@@ -27,10 +27,9 @@
                 <div class="columns">
 
                     <div class="column left">
-                        <h1 class="title is-1">Inmobiliaria X</h1>
-                        <h2 class="subtitle colored is-4">Lorem ipsum dolor sit amet.</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis ex deleniti aliquam
-                            tempora libero excepturi vero soluta odio optio sed.</p>
+                        <h1 class="title is-1">Inmobiliaria Builo</h1>
+                        <h2 class="subtitle colored is-4">¡Bienvenido de nuevo!</h2>
+                        <img src="imagenes/bienvenido.png" alt="" draggable="false">
                     </div>
 
                     <div class="column right has-text-centered">
