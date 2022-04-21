@@ -96,14 +96,14 @@ if(isset($_POST['login'])) {
 
     if($contador_resultado == 1){
         $_SESSION['correo'] = $correo;
-        header("Location: vistas/inicio.php");
+        echo "<script>window.location = 'vistas/inicio.php';</script>";
     } else if($contador_resultado == 0) {
         echo
         "<script> 
         Swal.fire({
         title: '¡ERROR!',
         text: 'El usuario ".$correo." no está registrado o la contraseña no es correcta. Intentalo de nuevo.',
-        type: 'error'
+        icon: 'error'
         });
         </script>";
     }

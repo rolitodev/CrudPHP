@@ -114,7 +114,6 @@ if(isset($_POST['registro'])) {
             icon: 'success',
             title: '¡Bien!',
             text: 'El usuario ha sido registrado con éxito.😎',
-            type: 'success',
             confirmButtonText: '¡Vale!'
             }).then((res) => { 
                 if(res.isConfirmed) { 

@@ -1,6 +1,10 @@
+* > .disclamer {
+    display: none !important;
+}
+
 html {
-background-color: transparent !important;
-overflow-y: auto !important;
+    background-color: transparent !important;
+    overflow-y: auto !important;
 }
 
 body {
