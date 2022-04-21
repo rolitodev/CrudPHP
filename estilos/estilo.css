@@ -1,0 +1,78 @@
+html {
+background-color: transparent !important;
+overflow-y: auto !important;
+}
+
+body {
+    background-image: url("../imagenes/fondo.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.field:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.register {
+    margin-top: 10rem;
+    background: white;
+    border-radius: 10px;
+}
+
+.left,
+.right {
+    padding: 4.5rem;
+}
+
+.left {
+    border-right: 5px solid #80808014;
+}
+
+.left .title {
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+.left .colored {
+    color: black;
+    font-weight: 500;
+    margin-top: 1rem !important;
+    letter-spacing: -1px;
+}
+
+.left p {
+    color: grey;
+    font-size: 1.15rem;
+}
+
+.right .title {
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.right .description {
+    margin-top: 1rem;
+    margin-bottom: 1rem !important;
+    color: black;
+    font-size: 1.15rem;
+}
+
+.right small {
+    color: black;
+}
+
+input {
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: green !important;
+    box-shadow: 0 0 0 1px green !important;
+}
+
+.fab,
+.fas {
+    color: black;
+    margin-right: 1rem;
+}
