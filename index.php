@@ -100,7 +100,8 @@ if(isset($_POST['login'])) {
         header("Location: vistas/inicio.php");
     } else if($contador_resultado == 0) {
         echo
-        "<script> swal({
+        "<script> 
+        Swal.fire({
         title: '¡ERROR!',
         text: 'El usuario ".$correo." no está registrado o la contraseña no es correcta. Intentalo de nuevo.',
         type: 'error'

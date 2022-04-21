@@ -1,9 +1,16 @@
 <?php 
 
-$dbname = "inmobiliaria";
-$dbuser = "root";
+// servidor
+$dbname = "id18819381_inmobiliaria";
+$dbuser = "id18819381_root";
 $dbhost = "localhost";
-$dbpass = "";
+$dbpass = "uFtQMv->yWIs45*G";
+
+// pruebas
+// $dbname = "inmobiliaria";
+// $dbuser = "root";
+// $dbhost = "localhost";
+// $dbpass = "";
 
 $conexion = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
